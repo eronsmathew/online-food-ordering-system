@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description"content="Affordable and professional web design">
+        <meta name="author" content="Erons Mathew">
+        <title>Eronz foods | Order</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Eronz</span>foods</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="order.html">Order</a></li>
+                        <li><a href="delicacies.html">Delicacies</a></li>
+                        <li><a href="admin.html">Admin</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main">
+            <div class="container">
+               <article id="main-col">
+                  <form class="myform" method="POST" action="">
+                      <fieldset>
+                          <legend>Place Your Order</legend>
+                          Name:<br>
+                               <input type="text" placeholder="enter name" id="name" ><br>
+                                  Surname:<br>
+                                 <input type="text" placeholder="enter surname" id="surname" ><br>
+                          Email:<br>
+                    <input type="email" placeholder="enter email address" id="email"><br>
+                Location:<br>
+          <input type="text" placeholder="enter location" id="location"><br>
+                Phone number:<br>
+                    <input type="tel" id="phone" placeholder="enter telephone"><br>
+                        Select a food:<br>
+                        <select id="myselect">
+                            <option value="fried rice">Fried rice</option>
+                            <option value="ofada rice">Ofada rice</option>
+                            <option value="Eba and egusi">Eba and Egusi</option>
+                            <option value="Amala and Ewedu">Amala and Ewedu</option>
+                            <option value="jollof rice">Jollof rice</option>
+                            <option value="Pounded yam">Pounded yam and ogbono</option>
+                            <option value="packaged stew">Packaged stew</option>
+                            <option value="yam porridge">yam porridge</option>
+                        </select>
+                                <p>Select your gender:</p>
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" value="male">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" value="female">
+                                <label for="other">Other</label>
+                                <input type="radio" name="gender" id="other" value="other"><br>
+                            <input type="submit" value="Submit" id="submit">
+            </fieldset>
+                  </form>
+            </div>
+        </section>
+        <footer>Eronz foods, Copyright &copy; 2017</footer>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

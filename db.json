@@ -1,0 +1,67 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "name": "felix",
+      "surname": "Irabor",
+      "email": "felix@gmail.com",
+      "location": "ikeja",
+      "Phone number": "07066678389",
+      "gender": "male",
+      "select food": "fried rice"
+    },
+    {
+      "name": "mathew eromosele",
+      "surname": "eromosele",
+      "email": "eronsmathew@gmail.com",
+      "phonenumber": "07064647860",
+      "location": "fgds",
+      "selectafood": "fried rice",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "toyin",
+      "surname": "cjbjf",
+      "email": "mathew.eromosele@yahoo.com",
+      "phonenumber": "07066453596",
+      "location": "ikeja",
+      "selectafood": "Pounded yam",
+      "gender": "male",
+      "gender2": "female",
+      "id": 3
+    },
+    {
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phonenumber": "",
+      "location": "",
+      "selectafood": "fried rice",
+      "gender": "female",
+      "id": 4
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "name": "fried rice",
+      "price": "N1000"
+    },
+    {
+      "id": "2",
+      "name": "jollof rice",
+      "price": "N850"
+    }
+  ],
+  "user": [
+    {
+      "username": "admin1",
+      "password": "password1"
+    },
+    {
+      "username": "admin2",
+      "password": "password2"
+    }
+  ]
+}
